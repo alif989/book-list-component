@@ -20,6 +20,7 @@ export default class MainComponent extends Component {
 	// 		books: books
 	// 	});
 	// }
+
 	changeInputStateProps = (event, index) => {
 		console.log(event,'event');
 		const book = {...this.state.books[index]}
